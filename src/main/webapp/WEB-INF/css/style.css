@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 1%;
+    vertical-align: bottom;
+}
+
+.main {
+    height: 75%;
+    width: 100%;
+}
