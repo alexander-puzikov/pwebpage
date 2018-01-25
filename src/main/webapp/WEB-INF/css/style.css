@@ -2,11 +2,26 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url('../img/632d61_ef1b33a8946145eeb4e5813d37672081background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+h1{
+    padding: 2% 0 0 10%;
+    color: cadetblue;
+}
+
 footer {
     position: fixed;
     bottom: 0;
-    right: 1%;
+    right: 2%;
     vertical-align: bottom;
+}
+
+.white {
+    color: white;
 }
 
 .main {
