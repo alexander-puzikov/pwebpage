@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 body {
@@ -10,8 +11,9 @@ body {
 }
 
 h1 {
-    padding: 2% 0 0 10%;
-    color: cadetblue;
+    padding: 2% 10% 0 0;
+    color: black;
+    text-align: right;
 }
 
 footer {
@@ -54,7 +56,7 @@ footer {
 
 .preloader-2 .line {
     width: 1px;
-    height: 12px;
+    height: 15px;
     background: #fff;
     margin: 0 1px;
     display: inline-block;
@@ -106,4 +108,33 @@ footer {
         opacity: 1;
         height: 15px;
     }
+}
+
+.mainset {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainset > .element {
+    width: 200px;
+    border-radius: 10px;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.mainset a {
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.mainset a:hover {
+    background-color: burlywood;
+}
+
+.element span {
+    margin-left: 10px;
 }
