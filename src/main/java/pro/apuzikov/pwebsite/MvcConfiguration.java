@@ -1,4 +1,4 @@
-package ru.puzikov.pwebsite;
+package pro.apuzikov.pwebsite;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

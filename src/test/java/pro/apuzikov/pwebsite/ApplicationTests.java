@@ -1,4 +1,4 @@
-package ru.puzikov.pwebsite;
+package pro.apuzikov.pwebsite;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

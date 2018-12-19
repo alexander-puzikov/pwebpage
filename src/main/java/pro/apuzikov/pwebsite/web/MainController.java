@@ -1,4 +1,4 @@
-package ru.puzikov.pwebsite.web;
+package pro.apuzikov.pwebsite.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
